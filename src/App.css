@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* spacing */
+
+table,
+td {
+
+  border: 1px solid #cdc9c9;
+  margin: auto;
+}
+
+thead,
+tfoot {
+  background-color: #969494;
+  color: #fff;
+}
+
+/* center */
+.center {
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+
+
