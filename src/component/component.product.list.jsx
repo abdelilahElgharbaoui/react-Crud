@@ -67,6 +67,9 @@ export function ProductList(){
                   Prix
                 </th>
                 <th className="w-1/4 py-4 px-6 text-gray-600 font-bold uppercase text-center">
+                  Category
+                </th>
+                <th className="w-1/4 py-4 px-6 text-gray-600 font-bold uppercase text-center">
                   Action
                 </th>
               </tr>
@@ -85,6 +88,9 @@ export function ProductList(){
                   </td>
                   <td className="py-4 px-6 border-b border-gray-200 text-center">
                     {el.price}
+                  </td>
+                  <td className="py-4 px-6 border-b border-gray-200 truncate text-center">
+                    {el.category.name}
                   </td>
                   <td className="py-4 px-6 border-b border-gray-200 ml-8">
                     <div className="grid grid-rows-1 grid-cols-2 gap-0 items-center justify-center">

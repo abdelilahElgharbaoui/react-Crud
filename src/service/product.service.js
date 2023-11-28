@@ -37,5 +37,6 @@ export async function addProduct(product){
 }
 
 export async function updateProduct(product) {
+    console.log("here"+product._id);
   return await http.patch(`/products/${product._id}`, product);
 }
