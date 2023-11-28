@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Les technologies utilisées
 
-## Available Scripts
+### React
 
-In the project directory, you can run:
+React, développé et maintenu par Facebook, est une bibliothèque JavaScript open-source largement utilisée pour la construction d'interfaces utilisateur interactives et réactives. Introduit en 2013, React a rapidement gagné en popularité en raison de son approche déclarative, de sa composabilité, et de sa gestion efficace des mises à jour du DOM.
 
-### `npm start`
+L'un des principaux concepts de React est la construction d'interfaces utilisateur modulaires à l'aide de composants réutilisables. Chaque composant représente une partie spécifique de l'interface et peut contenir son propre état interne. La gestion de l'état dans React est simplifiée grâce à un modèle de données unidirectionnel, ce qui facilite le suivi des changements et la maintenance du code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React utilise le concept de Virtual DOM (Document Object Model virtuel) pour améliorer les performances. Plutôt que de mettre à jour le DOM directement à chaque modification de l'état, React crée une représentation virtuelle du DOM et effectue des mises à jour ciblées. Cela minimise le coût des opérations de rendu, offrant ainsi des applications plus réactives.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Node.js
 
-### `npm test`
+Node.js est un environnement d'exécution JavaScript open-source et multiplateforme qui permet d'exécuter du code JavaScript en dehors d'un navigateur web. Il offre aux développeurs la possibilité d'utiliser JavaScript pour le scripting côté serveur et permet le développement d'applications réseau évolutives et performantes. Node.js est construit sur le moteur d'exécution JavaScript V8, le même moteur utilisé par le navigateur Google Chrome.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tailwind
 
-### `npm run build`
+Tailwind CSS est un framework CSS utilitaire qui facilite la création d'interfaces utilisateur modernes et réactives. Contrairement aux frameworks CSS traditionnels qui fournissent des composants prédéfinis, Tailwind se concentre sur la construction d'interfaces à l'aide de classes utilitaires directement dans votre code HTML.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Les Interfaces
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Page d'accueil
+![Screenshot from 2023-11-27 06-52-42](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/97534fda-c714-4587-9c5c-ac6c36b4057f)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Liste des ordinateurs
+![Screenshot from 2023-11-27 06-52-53](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/7a9c113b-f19f-4e51-b869-9d6fbcc4b121)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Liste des Produits
+![Screenshot from 2023-11-27 06-53-05](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/8c002384-af53-477f-9a0f-743f82cb736b)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Ajout de nouveau produit
+![Screenshot from 2023-11-27 06-53-30](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/cabeabe8-b088-470e-ba60-9c416e6c569f)
+![Screenshot from 2023-11-27 06-53-45](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/aa7c7c71-eb39-40e3-8a3b-63cbeafab0fd)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Modification d'un produit
+![Screenshot from 2023-11-28 22-44-52](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/aa8328cd-a244-4e18-a6ef-3790fab603fb)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Page de détail de chaque produit
+![Screenshot from 2023-11-27 06-54-24](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/7fa9246c-3106-4615-bce1-ec2057360166)
 
-## Learn More
+### Page d'inscription
+![Screenshot from 2023-11-27 06-54-31](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/5db6ce72-4f43-405a-b078-36cb79489d4c)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Profil
+![Screenshot from 2023-11-27 06-54-06](https://github.com/abdelilahElgharbaoui/react-Crud/assets/87317250/daa491d2-86fa-4ec6-b9bb-2bea101be3d0)
